@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F107FD2224C4BDDD00BD1ECA /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107FD2124C4BDDD00BD1ECA /* Welcome.swift */; };
+		F107FD2624C4C15E00BD1ECA /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107FD2524C4C15E00BD1ECA /* RegisterController.swift */; };
+		F107FD2A24C4C4E100BD1ECA /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107FD2924C4C4E100BD1ECA /* UIView+.swift */; };
+		F107FD2C24C4C72A00BD1ECA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107FD2B24C4C72A00BD1ECA /* LoginController.swift */; };
 		F149450024BF74EF00F51AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14944FF24BF74EF00F51AE0 /* AppDelegate.swift */; };
 		F149450224BF74EF00F51AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149450124BF74EF00F51AE0 /* SceneDelegate.swift */; };
 		F149450424BF74EF00F51AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149450324BF74EF00F51AE0 /* ViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F107FD2124C4BDDD00BD1ECA /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		F107FD2524C4C15E00BD1ECA /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		F107FD2924C4C4E100BD1ECA /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		F107FD2B24C4C72A00BD1ECA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F14944FC24BF74EF00F51AE0 /* MyVitae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVitae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14944FF24BF74EF00F51AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F149450124BF74EF00F51AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 				F149450824BF74F000F51AE0 /* Assets.xcassets */,
 				F149450D24BF74F000F51AE0 /* Info.plist */,
 				F19119B224C3E5910048D60C /* UIViewController+.swift */,
+				F107FD2924C4C4E100BD1ECA /* UIView+.swift */,
 			);
 			path = MyVitae;
 			sourceTree = "<group>";
@@ -149,6 +158,9 @@
 			children = (
 				F19119B024C3E4C80048D60C /* Archive.swift */,
 				F19119B424C3E5FF0048D60C /* HomeController.swift */,
+				F107FD2124C4BDDD00BD1ECA /* Welcome.swift */,
+				F107FD2524C4C15E00BD1ECA /* RegisterController.swift */,
+				F107FD2B24C4C72A00BD1ECA /* LoginController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -287,8 +299,12 @@
 				F149450024BF74EF00F51AE0 /* AppDelegate.swift in Sources */,
 				F19119B524C3E5FF0048D60C /* HomeController.swift in Sources */,
 				F19119B324C3E5910048D60C /* UIViewController+.swift in Sources */,
+				F107FD2624C4C15E00BD1ECA /* RegisterController.swift in Sources */,
 				F19119B124C3E4C80048D60C /* Archive.swift in Sources */,
+				F107FD2A24C4C4E100BD1ECA /* UIView+.swift in Sources */,
 				F149450224BF74EF00F51AE0 /* SceneDelegate.swift in Sources */,
+				F107FD2224C4BDDD00BD1ECA /* Welcome.swift in Sources */,
+				F107FD2C24C4C72A00BD1ECA /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
